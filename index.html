@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link to Proxy Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Proxy Link Converter</h1>
+        <form id="proxyForm">
+            <label for="urlInput">Enter the URL:</label>
+            <input type="text" id="urlInput" placeholder="https://example.com" required>
+            <button type="submit">Generate Proxy Link</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>Proxy Link:</h2>
+            <a id="proxyLink" href="#" target="_blank"></a>
+        </div>
+    </div>
+    <script src="proxy.js"></script>
+</body>
+</html>
