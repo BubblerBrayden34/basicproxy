@@ -3,7 +3,7 @@ document.getElementById('proxyForm').addEventListener('submit', function(event) 
     const urlInput = document.getElementById('urlInput').value;
     
     // Use your Glitch proxy
-    const proxyBaseUrl = "https://heliotrope-synonymous-player.glitch.me/?url=";
+    const proxyBaseUrl = "https://cdn.proxyium.com/proxyrequest.php/?url=";
 
     // Generate the proxy link by appending the URL
     const proxyUrl = proxyBaseUrl + encodeURIComponent(urlInput);
